@@ -103,7 +103,7 @@ export function ProposalActionSelectorModal({
         <PaddedColumn gap="16px">
           <RowBetween>
             <Text fontWeight={500} fontSize={16}>
-              <Trans>Select an action</Trans>
+              <Trans>Select</Trans>
             </Text>
             <CloseIcon onClick={onDismiss} />
           </RowBetween>

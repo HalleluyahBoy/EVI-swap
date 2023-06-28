@@ -348,9 +348,9 @@ export default function Landing() {
             <ContentContainer isDarkMode={isDarkMode}>
               <TitleText isDarkMode={isDarkMode}>
                 {shouldDisableNFTRoutes ? (
-                  <Trans>Trade crypto with confidence</Trans>
+                  <Trans>Trade crypto with certainty</Trans>
                 ) : (
-                  <Trans>Trade crypto and NFTs with confidence</Trans>
+                  <Trans>Trade crypto and NFTs with Certainty</Trans>
                 )}
               </TitleText>
               <SubTextContainer>
@@ -384,10 +384,10 @@ export default function Landing() {
                 <LearnMoreArrow />
               </LearnMoreContainer>
 
-              <DownloadWalletLink href="https://wallet.uniswap.org/">
+              {/* <DownloadWalletLink href="https://wallet.uniswap.org/">
                 <AppleLogo width="20" height="20" />
                 Download the Uniswap Wallet for iOS
-              </DownloadWalletLink>
+              </DownloadWalletLink> */}
             </ContentContainer>
             <AboutContentContainer isDarkMode={isDarkMode}>
               <CardGrid cols={2} ref={cardsRef}>
